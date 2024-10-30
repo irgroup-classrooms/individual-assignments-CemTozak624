@@ -8,6 +8,12 @@ $ whoami <br>
 cemilhantozak
 
 ## Quiz
-What should be outputted to the display when you type echo Hello World?
-Hello World
+What should be outputted to the display when you type echo Hello World? <br>
+Hello World <p>
+
+# Zweite Aufgabe
+## Quiz
+How do I find what directory you are currently in? <br>
+pwd <br>
+/Users/cemilhantozak
 
