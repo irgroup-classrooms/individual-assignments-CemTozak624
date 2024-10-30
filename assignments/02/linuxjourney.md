@@ -2,9 +2,9 @@
 Exercises
 Try some other Linux commands and see what they output:
 
-$ date
-Mi 30 Okt 2024 17:33:47 CET
-$ whoami
+$ date <br>
+Mi 30 Okt 2024 17:33:47 CET <br> <br>
+$ whoami <br>
 cemilhantozak
 
 ## Quiz
