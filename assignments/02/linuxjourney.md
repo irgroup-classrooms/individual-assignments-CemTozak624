@@ -30,9 +30,9 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 Exercises<br>
 Run ls with different flags and see the output you receive.
 <br><br>
-ls -R: recursively list directory contents<br>
+### ls -R: recursively list directory contents<br>
 - opens all my files, to long of a code to put it in here <br>
-ls -r: reverse order while sorting<br>
+### ls -r: reverse order while sorting<br>
 - mysuperduperfile
 index.html
 Zahlenraten.ipynb
@@ -55,7 +55,7 @@ Desktop
 Bewerbungsfoto
 Applications (Parallels)
 Abgabe_Tozak.R <br>
-ls -t: sort by modification time, newest first
+### ls -t: sort by modification time, newest first
 -Downloads
 mysuperduperfile
 Desktop
