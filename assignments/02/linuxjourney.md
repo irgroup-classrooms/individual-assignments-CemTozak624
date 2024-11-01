@@ -15,5 +15,5 @@ Hello World <p>
 ## Quiz
 How do I find what directory you are currently in? <br>
 pwd <br>
-/Users/cemilhantozak
+  /Users/cemilhantozak
 
