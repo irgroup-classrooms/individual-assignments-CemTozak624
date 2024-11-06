@@ -127,3 +127,92 @@ Erstelle eine neue Datei:
 ```
 
 Dieser Markdown-Text ist so strukturiert, dass die Aufgaben und Fragen übersichtlich und gut lesbar sind. Befehle sind in Code-Blöcken und wichtige Fragen und Antworten sind klar hervorgehoben.
+```
+
+Quiz
+How do you create a file called myfile?
+- touch myfile
+
+# 6.Aufgabe
+###Exercises
+Run the file command on a few different directories and files and note the output:
+(base) cemilhantozak@Cems-MacBook-Air ~ % file Abgabe_Tozak.R
+- Abgabe_Tozak.R: Unicode text, UTF-8 text
+
+(base) cemilhantozak@Cems-MacBook-Air ~ % file zahlenraten.ipynb
+- zahlenraten.ipynb: JSON data
+
+(base) cemilhantozak@Cems-MacBook-Air ~ % file Rplot.pdf
+- Rplot.pdf: PDF document, version 1.4, 1 pages
+
+Quiz
+What command can you use to find the file type of a file?
+- file
+
+# 7.Aufgabe
+
+###Exercises
+Run cat on different files and directories. Then try to cat multiple files.
+(base) cemilhantozak@Cems-MacBook-Air ~ % cat zahlenraten.ipynb
+- {
+ "cells": [],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
+Quiz
+What's a good way to see the contents of a file?
+- cat
+
+# 8.Aufgabe
+Exercises
+Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+(base) cemilhantozak@Cems-MacBook-Air ~ % less /Users/cemilhantozak/Downloads/Übung_2.sql 
+- /****************************************************************************
+   2. Übung SQL DIS 13                     TH-Köln, Prof. Dr. Matthias Groß
+ ****************************************************************************/
+
+/* 
+    Aufgaben mit ! erfordern das Nachschlagen in der Onlinehilfe
+    Tragen Sie die Ergebnisse unter den Aufgaben ein und dokumentieren Sie
+    ggfs. Besonderheiten
+*/
+
+-- Mehrere Tabellen abfragen
+-- 1. Listen Sie alle Vorlesungen und die Namen der Professoren, die sie lesen, auf.
+-- 2. Wie viele Professoren halten Vorlesungen?
+-- 3. Welche Professoren halten keine Vorlesungen?
+-- 4. Wie viele Vorlesungen liest der Professor mit der Personalnr. 2137
+-- 5. Welche Vorlesungen hält Prof. Kant?
+-- 6. Wie viele SWS hat Prof. Russel im Semester?
+-- 7. Ermitteln Sie alle Professoren mit einer SWS>2 
+-- 8. Welche Assistenten hat Prof. Sokrates?
+-- 9. Wie viele Assistenten hat Prof. Kopernikus?
+-- 10. Welche Vorlesungen (VorlNr) hat Zuhörer?
+-- 11. Bei wem hatte Frau Carnap ihre Prüfung mit Note 1?
+-- 12. Welche Note hat Frau Carnap in der Vorlesung Grundzüge?
+-- 13. Ermitteln Sie die Voraussetzungen für alle Vorlesungen mit einem "th" im Titel
+-- 14. Listen Sie die Voraussetzungen zu den Vorlesungen Erkenntnistheorie und Wissenschaftstheorie auf
+-- Für später oder für die, die schon mal "group by" versuchen möchten!
+-- 15. Wie viele Assistenten hat JEDER Prof?
+-- 16. Ermitteln Sie die durchschnittliche Semesterzahl der Anwesenden je Vorlesung
+-- 17. Ermitteln Sie die durchschnittliche Semesterzahl der Hörer je Professor
+/Users/cemilhantozak/Downloads/Übung_2.sql (END)
+
+Quiz
+How do you quit out of a less command?
+- q
+
+# 9.Aufgabe
+Exercises
+Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
+
+(base) cemilhantozak@Cems-MacBook-Air ~ % less /Users/cemilhantozak/Downloads/Übung_2.sql    
+bck-i-search: l_
+
+Quiz
+What is the command to clear the terminal?
+- clear
+- 
+
