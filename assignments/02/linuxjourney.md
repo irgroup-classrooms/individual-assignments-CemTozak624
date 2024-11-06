@@ -83,8 +83,9 @@ Public
 Exercises <br>
 Create a new file<br>
 -(base) cemilhantozak@Cems-MacBook-Air ~ % touch neuedatei
-
-Note the timestamp <br>
+<p>
+Note the timestamp 
+ <p/> 
 (base) cemilhantozak@Cems-MacBook-Air ~ % ls -l
 - -rw-r--r--    1 cemilhantozak  staff       0  6 Nov 13:30 neuedatei <br>
 Touch the file and check the timestamp once again <br>
