@@ -241,6 +241,24 @@ Benenne eine Datei um und verschiebe sie in ein anderes Verzeichnis.
 
 ---
 
+```markdown
+# 13. Aufgabe
+### Exercises
+Erstelle eine Datei mit dem Namen `-file` (vergiss das Minuszeichen nicht!).
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % touch -- -file
+```
+
+**Entferne die Datei:**
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % rm -- -file
+```
+
+### Quiz
+**Frage**: Wie löscht man eine Datei mit dem Namen `myfile`?  
+**Antwort**: `rm myfile`
+
 # 12. Aufgabe
 ### Exercises
 Erstelle einige Verzeichnisse und verschiebe Dateien in diese Verzeichnisse.
@@ -259,5 +277,104 @@ Erstelle einige Verzeichnisse und verschiebe Dateien in diese Verzeichnisse.
 **Frage**: Welcher Befehl wird zum Erstellen eines Verzeichnisses verwendet?  
 **Antwort**: `mkdir`
 
----
+# 13.Aufgabe
+Exercises
+Create a file called -file (don't forget the dash!).
+-(base) cemilhantozak@Cems-MacBook-Air ~ % touch -- -file
+Remove that file.
+- (base) cemilhantozak@Cems-MacBook-Air ~ % rm -- -file
+
+Quiz
+How do you remove a file called myfile?
+- rm myfile
+
+
+# 14. Aufgabe
+### Exercises
+Suche im Root-Verzeichnis nach einer Datei, die das Wort `net` enthält.
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % find /root -name net
 ```
+
+### Quiz
+**Frage**: Welchen Parameter sollte man bei `find` angeben, um nach einem bestimmten Dateinamen zu suchen?  
+**Antwort**: `-name`
+
+---
+
+# 15. Aufgabe
+### Exercises
+Verwende `man`, um die `echo`-, `logout`- und `pwd`-Befehle zu untersuchen. Da der `help`-Befehl bei mir nicht funktioniert, nutze ich stattdessen `man`:
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % man echo
+(base) cemilhantozak@Cems-MacBook-Air ~ % man pwd
+(base) cemilhantozak@Cems-MacBook-Air ~ % man logout
+```
+
+### Quiz
+**Frage**: Wie kann man eine schnelle Hilfe für eingebaute Bash-Befehle aufrufen?  
+**Antwort**: `help`
+
+---
+
+# 16. Aufgabe
+### Exercises
+Verwende den `man`-Befehl, um das Handbuch für den `ls`-Befehl zu sehen.
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % man ls
+```
+
+### Quiz
+**Frage**: Wie ruft man das Handbuch für einen bestimmten Befehl auf?  
+**Antwort**: `man`
+
+---
+
+# 17. Aufgabe
+### Exercises
+Verwende den `whatis`-Befehl für `less`, um eine kurze Beschreibung des Befehls zu erhalten.
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % whatis less
+```
+
+### Quiz
+**Frage**: Welcher Befehl zeigt eine kurze Beschreibung eines anderen Befehls an?  
+**Antwort**: `whatis`
+
+---
+
+# 18. Aufgabe
+### Exercises
+Erstelle ein paar Aliase und lösche sie danach.
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % alias hallo='ls'
+(base) cemilhantozak@Cems-MacBook-Air ~ % unalias hallo
+```
+
+### Quiz
+**Frage**: Welcher Befehl wird verwendet, um ein Alias zu erstellen?  
+**Antwort**: `alias`
+
+---
+
+# 19. Aufgabe
+### Exercises
+Beende die Shell, um zu sehen, was passiert. Achte darauf, dass du keine weiteren Arbeiten in dieser Shell erledigen musst.
+
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % exit
+```
+
+### Quiz
+**Frage**: Wie verlässt man die Shell?  
+**Antwort**: `exit`
+```
+
+
+
+
