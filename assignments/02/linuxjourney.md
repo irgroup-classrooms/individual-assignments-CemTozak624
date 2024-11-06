@@ -214,5 +214,41 @@ bck-i-search: l_
 Quiz
 What is the command to clear the terminal?
 - clear
-- 
+
+# 10.Aufgabe
+Exercises
+Copy over a couple of files, be careful not to overwrite anything important.
+- (base) cemilhantozak@Cems-MacBook-Air ~ % cp /Users/cemilhantozak/Downloads/Übung_2.sql  /Users/cemilhantozak/Downloads/Bewerbung
+- (base) cemilhantozak@Cems-MacBook-Air ~ % cp *.jpg /Users/cemilhantozak/Downloads/Pictures         
+
+Quiz
+What flag do you need to specify to copy over a directory?
+- -r
+
+# 11.Aufgabe
+Exercises
+Rename a file, then move that file to a different directory.
+renaming file:
+- (base) cemilhantozak@Cems-MacBook-Air ~ % mv /Users/cemilhantozak/Downloads/Übung_1 Aufgabe1
+moving file:
+-(base) cemilhantozak@Cems-MacBook-Air ~ % mv Aufgabe1 /Users/cemilhantozak/Downloads/Beweerbung
+
+Quiz
+How do you rename a file called cat to dog?
+- mv cat dog
+
+# 12.Aufgabe
+Exercises
+Make a couple of directories and move some files into that directory.
+Create new directory:
+- (base) cemilhantozak@Cems-MacBook-Air ~ % mkdir book paintings movies
+move directory:
+- (base) cemilhantozak@Cems-MacBook-Air ~ % mv art-logo.png /Users/cemilhantozak/books
+
+Quiz
+What command is use to make a directory?
+- mkdir
+
+# 13.Aufgabe
+
 
