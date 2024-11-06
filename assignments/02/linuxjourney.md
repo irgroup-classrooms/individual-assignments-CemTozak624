@@ -1,4 +1,4 @@
-# Erste Aufgabe
+# 1. Aufgabe
 Exercises<br>
 Try some other Linux commands and see what they output:
 
@@ -11,13 +11,13 @@ $ whoami <br>
 What should be outputted to the display when you type echo Hello World? <br>
 - Hello World <p>
 
-# Zweite Aufgabe
+# 2. Aufgabe
 ## Quiz
 How do I find what directory you are currently in? <br>
 pwd <br>
 - /Users/cemilhantozak
 
-# Dritte Aufgabe
+# 3. Aufgabe
 Exercises <br>
 Run the cd command without any flags, where does it take you? <br>
 - (base) cemilhantozak@Cems-Air
@@ -26,7 +26,7 @@ Run the cd command without any flags, where does it take you? <br>
 If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use? <br>
 - cd ..
 
-# Vierte Aufgabe
+# 4. Aufgabe
 Exercises<br>
 Run ls with different flags and see the output you receive.
 <br><br>
@@ -79,3 +79,15 @@ Movies
 Parallels
 Public
 
+# 5.Aufgabe
+Exercises <br>
+Create a new file<br>
+-(base) cemilhantozak@Cems-MacBook-Air ~ % touch neuedatei
+
+Note the timestamp <br>
+(base) cemilhantozak@Cems-MacBook-Air ~ % ls -l
+- -rw-r--r--    1 cemilhantozak  staff       0  6 Nov 13:30 neuedatei <br>
+Touch the file and check the timestamp once again <br>
+(base) cemilhantozak@Cems-MacBook-Air ~ % touch neuedatei <br>
+(base) cemilhantozak@Cems-MacBook-Air ~ % ls -l
+- -rw-r--r--    1 cemilhantozak  staff       0  6 Nov 13:31 neuedatei
