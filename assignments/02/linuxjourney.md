@@ -1,4 +1,4 @@
-Hier ist die formatierte Markdown-Datei, die alle Aufgaben klar strukturiert und gut formatiert enthält. Kopiere den Inhalt in deine `.md` Datei:
+Hier ist die vollständig formatierte Markdown-Datei zum Kopieren und Einfügen:
 
 ```markdown
 # 1. Aufgabe
@@ -124,36 +124,41 @@ Erstelle eine neue Datei:
 (base) cemilhantozak@Cems-MacBook-Air ~ % ls -l
 ```
 - `-rw-r--r--    1 cemilhantozak  staff       0  6 Nov 13:31 neuedatei`
-```
 
-Dieser Markdown-Text ist so strukturiert, dass die Aufgaben und Fragen übersichtlich und gut lesbar sind. Befehle sind in Code-Blöcken und wichtige Fragen und Antworten sind klar hervorgehoben.
-```
+---
 
-Quiz
-How do you create a file called myfile?
-- touch myfile
+# 6. Aufgabe
+### Exercises
+Führe den `file`-Befehl auf einigen verschiedenen Verzeichnissen und Dateien aus und notiere die Ausgabe:
 
-# 6.Aufgabe
-###Exercises
-Run the file command on a few different directories and files and note the output:
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % file Abgabe_Tozak.R
+```
 - Abgabe_Tozak.R: Unicode text, UTF-8 text
 
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % file zahlenraten.ipynb
+```
 - zahlenraten.ipynb: JSON data
 
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % file Rplot.pdf
+```
 - Rplot.pdf: PDF document, version 1.4, 1 pages
 
-Quiz
-What command can you use to find the file type of a file?
-- file
+### Quiz
+**Frage**: Welchen Befehl kann man verwenden, um den Dateityp einer Datei zu bestimmen?  
+**Antwort**: `file`
 
-# 7.Aufgabe
+---
 
-###Exercises
-Run cat on different files and directories. Then try to cat multiple files.
+# 7. Aufgabe
+### Exercises
+Führe den `cat`-Befehl für verschiedene Dateien und Verzeichnisse aus. Versuche anschließend, mehrere Dateien mit `cat` gleichzeitig anzuzeigen.
+
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % cat zahlenraten.ipynb
+```
 - {
  "cells": [],
  "metadata": {},
@@ -161,94 +166,98 @@ Run cat on different files and directories. Then try to cat multiple files.
  "nbformat_minor": 5
 }
 
-Quiz
-What's a good way to see the contents of a file?
-- cat
+### Quiz
+**Frage**: Wie kann man den Inhalt einer Datei anzeigen?  
+**Antwort**: `cat`
 
-# 8.Aufgabe
-Exercises
-Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+---
+
+# 8. Aufgabe
+### Exercises
+Führe den `less`-Befehl auf einer Datei aus, navigiere im Dokument und suche nach einem spezifischen Wort. Gehe schnell zum Anfang oder Ende der Datei.
+
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % less /Users/cemilhantozak/Downloads/Übung_2.sql 
+```
 - /****************************************************************************
    2. Übung SQL DIS 13                     TH-Köln, Prof. Dr. Matthias Groß
  ****************************************************************************/
 
-/* 
-    Aufgaben mit ! erfordern das Nachschlagen in der Onlinehilfe
-    Tragen Sie die Ergebnisse unter den Aufgaben ein und dokumentieren Sie
-    ggfs. Besonderheiten
-*/
+...
 
--- Mehrere Tabellen abfragen
--- 1. Listen Sie alle Vorlesungen und die Namen der Professoren, die sie lesen, auf.
--- 2. Wie viele Professoren halten Vorlesungen?
--- 3. Welche Professoren halten keine Vorlesungen?
--- 4. Wie viele Vorlesungen liest der Professor mit der Personalnr. 2137
--- 5. Welche Vorlesungen hält Prof. Kant?
--- 6. Wie viele SWS hat Prof. Russel im Semester?
--- 7. Ermitteln Sie alle Professoren mit einer SWS>2 
--- 8. Welche Assistenten hat Prof. Sokrates?
--- 9. Wie viele Assistenten hat Prof. Kopernikus?
--- 10. Welche Vorlesungen (VorlNr) hat Zuhörer?
--- 11. Bei wem hatte Frau Carnap ihre Prüfung mit Note 1?
--- 12. Welche Note hat Frau Carnap in der Vorlesung Grundzüge?
--- 13. Ermitteln Sie die Voraussetzungen für alle Vorlesungen mit einem "th" im Titel
--- 14. Listen Sie die Voraussetzungen zu den Vorlesungen Erkenntnistheorie und Wissenschaftstheorie auf
--- Für später oder für die, die schon mal "group by" versuchen möchten!
--- 15. Wie viele Assistenten hat JEDER Prof?
--- 16. Ermitteln Sie die durchschnittliche Semesterzahl der Anwesenden je Vorlesung
--- 17. Ermitteln Sie die durchschnittliche Semesterzahl der Hörer je Professor
-/Users/cemilhantozak/Downloads/Übung_2.sql (END)
+### Quiz
+**Frage**: Wie beendet man den `less`-Befehl?  
+**Antwort**: `q`
 
-Quiz
-How do you quit out of a less command?
-- q
+---
 
-# 9.Aufgabe
-Exercises
-Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
+# 9. Aufgabe
+### Exercises
+Navigiere durch den Verlauf deiner vorherigen Befehle mit den Pfeiltasten nach oben und unten. Experimentiere mit der `ctrl-R`-Suche im Verlauf.
 
+```bash
 (base) cemilhantozak@Cems-MacBook-Air ~ % less /Users/cemilhantozak/Downloads/Übung_2.sql    
+```
 bck-i-search: l_
 
-Quiz
-What is the command to clear the terminal?
-- clear
+### Quiz
+**Frage**: Wie löscht man das Terminal?  
+**Antwort**: `clear`
 
-# 10.Aufgabe
-Exercises
-Copy over a couple of files, be careful not to overwrite anything important.
-- (base) cemilhantozak@Cems-MacBook-Air ~ % cp /Users/cemilhantozak/Downloads/Übung_2.sql  /Users/cemilhantozak/Downloads/Bewerbung
-- (base) cemilhantozak@Cems-MacBook-Air ~ % cp *.jpg /Users/cemilhantozak/Downloads/Pictures         
+---
 
-Quiz
-What flag do you need to specify to copy over a directory?
-- -r
+# 10. Aufgabe
+### Exercises
+Kopiere einige Dateien, achte darauf, nichts Wichtiges zu überschreiben.
 
-# 11.Aufgabe
-Exercises
-Rename a file, then move that file to a different directory.
-renaming file:
-- (base) cemilhantozak@Cems-MacBook-Air ~ % mv /Users/cemilhantozak/Downloads/Übung_1 Aufgabe1
-moving file:
--(base) cemilhantozak@Cems-MacBook-Air ~ % mv Aufgabe1 /Users/cemilhantozak/Downloads/Beweerbung
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % cp /Users/cemilhantozak/Downloads/Übung_2.sql /Users/cemilhantozak/Downloads/Bewerbung
+(base) cemilhantozak@Cems-MacBook-Air ~ % cp *.jpg /Users/cemilhantozak/Downloads/Pictures
+```
 
-Quiz
-How do you rename a file called cat to dog?
-- mv cat dog
+### Quiz
+**Frage**: Welches Flag wird benötigt, um ein Verzeichnis zu kopieren?  
+**Antwort**: `-r`
 
-# 12.Aufgabe
-Exercises
-Make a couple of directories and move some files into that directory.
-Create new directory:
-- (base) cemilhantozak@Cems-MacBook-Air ~ % mkdir book paintings movies
-move directory:
-- (base) cemilhantozak@Cems-MacBook-Air ~ % mv art-logo.png /Users/cemilhantozak/books
+---
 
-Quiz
-What command is use to make a directory?
-- mkdir
+# 11. Aufgabe
+### Exercises
+Benenne eine Datei um und verschiebe sie in ein anderes Verzeichnis.
 
-# 13.Aufgabe
+**Umbenennen der Datei:**
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % mv /Users/cemilhantozak/Downloads/Übung_1 Aufgabe1
+```
 
+**Verschieben der Datei:**
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % mv Aufgabe1 /Users/cemilhantozak/Downloads/Bewerbung
+```
 
+### Quiz
+**Frage**: Wie benennt man eine Datei von `cat` zu `dog` um?  
+**Antwort**: `mv cat dog`
+
+---
+
+# 12. Aufgabe
+### Exercises
+Erstelle einige Verzeichnisse und verschiebe Dateien in diese Verzeichnisse.
+
+**Neues Verzeichnis erstellen:**
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % mkdir books paintings movies
+```
+
+**Datei verschieben:**
+```bash
+(base) cemilhantozak@Cems-MacBook-Air ~ % mv art-logo.png /Users/cemilhantozak/books
+```
+
+### Quiz
+**Frage**: Welcher Befehl wird zum Erstellen eines Verzeichnisses verwendet?  
+**Antwort**: `mkdir`
+
+---
+```
