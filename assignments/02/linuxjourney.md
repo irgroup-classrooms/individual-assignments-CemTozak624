@@ -1,6 +1,6 @@
 Hier ist die vollständig formatierte Markdown-Datei zum Kopieren und Einfügen:
 
-```markdown
+markdown
 # 1. Aufgabe
 ### Exercises
 Versuche einige Linux-Befehle und prüfe ihre Ausgabe:
@@ -373,7 +373,6 @@ Beende die Shell, um zu sehen, was passiert. Achte darauf, dass du keine weitere
 ### Quiz
 **Frage**: Wie verlässt man die Shell?  
 **Antwort**: `exit`
-```
 
 
 
