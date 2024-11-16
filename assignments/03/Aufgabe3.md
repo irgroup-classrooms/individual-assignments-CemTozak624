@@ -1,5 +1,5 @@
 # Aufgaben und Lösungen
-```bash
+
 ## 1. How do you get the first three lines of the file 2014-01_JA.tsv?
 
 ```bash
