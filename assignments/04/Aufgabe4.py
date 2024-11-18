@@ -4,7 +4,7 @@ from collections import Counter
 def main():
     
     # CSV-Datei mit Produktbestellungen lesen
-    with open('C:/Uni/DIS08/individual-assignments-piaa0802/assignments/04/csv/orders.csv') as file:
+    with open('/Users/cemilhantozak/Downloads/Studium/DIS08-Github/individual-assignments-CemTozak624/assignments/04/csv/orders.csv') as file:
         content = file.read()
 
     # Reguläre Ausdrücke definieren
