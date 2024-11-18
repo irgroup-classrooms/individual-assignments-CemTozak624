@@ -4,3 +4,6 @@
   - Die zweite Spalte heißt "char" gibt die Rasse oder den Namen des Characters an, wovon sich manche Daten überschneiden
   - Die dritte Spalte heißt "dialog". Hier geht es um Zitate von den jeweiligen Characteren, wovon die allermeisten einzigartige Daten sind
   - die vierte und letzte Spalte heißt "movie". Hieraus kann man balesen, welcher Character in welchem Film vorgekommen ist.
+ 
+# Aufgabe 3: Identify "dirty" data fields and clean them up. Use regex replace, spreadsheets, OpenRefine or whatever you like.
+
