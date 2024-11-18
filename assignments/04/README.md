@@ -16,38 +16,39 @@ grep -oE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' contacts.csv
 ``` 
 2. Extract all phone numbers from the text.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -oE '\([0-9]{3}\) [0-9]{3}-[0-9]{4}' contacts.csv
 ``` 
 3. Extract all names that start with the letter ‘J’.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -o 'J[^ ]*' contacts.csv
 ``` 
 4. Extract all street names that contain the word 'St'.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -o '[^ ]* [^ ]* [^ ]*St' contacts.csv
 ``` 
 5. Extract all addresses in ‘USA’.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep  'USA' contacts.csv | awk '{print $3, $4, $5, $6, $7}'
 ``` 
 6. Extract the last names of all people.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % cut -d',' -f1 contacts.csv | grep -oE '[^ ]+$'
 ``` 
 7. Extract all email domains (part after the @ sign).
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -oE '@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}' contacts.csv
 ``` 
 8.	Extract all instances of the first name ‘David’ along with their full address (street and city).
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep 'David' contacts.csv | awk '{print $1, $2, $3, $4, $5, $6, $7}'
 ``` 
 9.	Find all entries where the phone number ends with ‘7’.
 ``` 
-
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -o '[^ ]*7' contacts.csv
 ``` 
 10.	Extract all instances of first names that end with the letter 'e'.
 ``` 
+(base) cemilhantozak@Cems-MacBook-Air csv % grep -o '^[^ ]*e\b' contacts.csv
 
 ``` 
 
