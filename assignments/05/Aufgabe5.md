@@ -8,3 +8,76 @@
 # Aufgabe 3: Identify "dirty" data fields and clean them up. Use regex replace, spreadsheets, OpenRefine or whatever you like.
 Die folgenden Sätze sind Beispiele dafür, wie "dirty data" bereinigt wurde. Es gab viele weitere Sätze, die ähnliche Muster und Probleme aufwiesen. Mit den gezeigten Methoden können diese ebenfalls korrigiert werden.
 
+---
+
+## 1. Problem
+### Exercises
+**Falscher Satz:**  
+`Oh Smeagol Ive got one! , Ive got a fish Smeagol, Smeagol!`  
+
+**Code:**  
+```python
+value.replace("! , ", "! ")
+Korrigierter Satz:
+Oh Smeagol Ive got one! Ive got a fish Smeagol, Smeagol!
+
+2. Problem
+
+Exercises
+Falscher Satz:
+Gandalf?
+
+Code:
+
+value.replace("  ", "")
+Korrigierter Satz:
+Gandalf?
+
+3. Problem
+
+Exercises
+Falscher Satz:
+And I've gone and had too much. , It must be getting late.
+
+Code:
+
+value.replace(". ,", ".")
+Korrigierter Satz:
+And I've gone and had too much. It must be getting late.
+
+4. Problem
+
+Exercises
+Falscher Satz:
+What?Gandalf?See what?
+
+Code:
+
+value.replace("?", "? ")
+Korrigierter Satz:
+What? Gandalf? See what?
+
+5. Problem
+
+Exercises
+Falscher Satz:
+ , Show yourself.
+
+Code:
+
+value.replace(", ", "")
+Korrigierter Satz:
+Show yourself.
+
+6. Problem
+
+Exercises
+Falscher Satz:
+Rally to me!To meeee!
+
+Code:
+
+value.replace("!", "! ")
+Korrigierter Satz:
+Rally to me! To meeee!
+
