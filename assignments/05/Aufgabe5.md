@@ -10,20 +10,8 @@ Die folgenden Sätze sind Beispiele dafür, wie "dirty data" bereinigt wurde. Es
 
 ---
 
-## 1. Problem
-### Exercises
-**Falscher Satz:**  
-`Oh Smeagol Ive got one! , Ive got a fish Smeagol, Smeagol!`  
-
-**Code:**  
-```python
-value.replace("! , ", "! ")
-Korrigierter Satz:
-Oh Smeagol Ive got one! Ive got a fish Smeagol, Smeagol!
-
 2. Problem
 
-Exercises
 Falscher Satz:
 Gandalf?
 
@@ -35,7 +23,6 @@ Gandalf?
 
 3. Problem
 
-Exercises
 Falscher Satz:
 And I've gone and had too much. , It must be getting late.
 
@@ -47,7 +34,6 @@ And I've gone and had too much. It must be getting late.
 
 4. Problem
 
-Exercises
 Falscher Satz:
 What?Gandalf?See what?
 
@@ -59,7 +45,6 @@ What? Gandalf? See what?
 
 5. Problem
 
-Exercises
 Falscher Satz:
  , Show yourself.
 
@@ -71,7 +56,6 @@ Show yourself.
 
 6. Problem
 
-Exercises
 Falscher Satz:
 Rally to me!To meeee!
 
@@ -80,4 +64,15 @@ Code:
 value.replace("!", "! ")
 Korrigierter Satz:
 Rally to me! To meeee!
+
+7. Problem
+
+Falscher Satz:
+Murderer) 
+
+Code:
+
+value.replace(")", "")
+Korrigierter Satz:
+Murderer
 
