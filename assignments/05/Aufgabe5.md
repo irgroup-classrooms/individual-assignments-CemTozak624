@@ -14,7 +14,7 @@ Die folgenden Sätze sind Beispiele dafür, wie "dirty data" bereinigt wurde. Es
 
 #### Falscher Satz: Gandalf?
 
-```bash
+```
 value.replace("  ", "")
 ```
 #### Korrigierter Satz: Gandalf?
@@ -24,53 +24,57 @@ value.replace("  ", "")
 
 #### Falscher Satz: And I've gone and had too much. , It must be getting late.
 
-
 ```
 value.replace(". ,", ".")
 ```
 #### Korrigierter Satz: And I've gone and had too much. It must be getting late.
 
+---
+
 ### 4. Problem
 
-Falscher Satz:
-What?Gandalf?See what?
-
-Code:
-
+#### Falscher Satz: What?Gandalf?See what?
+```
 value.replace("?", "? ")
-Korrigierter Satz:
-What? Gandalf? See what?
+```
 
-5. Problem
+#### Korrigierter Satz:What? Gandalf? See what?
 
-Falscher Satz:
- , Show yourself.
+---
 
-Code:
+### 5. Problem
 
+#### Falscher Satz: , Show yourself.
+
+```
 value.replace(", ", "")
-Korrigierter Satz:
-Show yourself.
+```
 
-6. Problem
+#### Korrigierter Satz: Show yourself.
 
-Falscher Satz:
-Rally to me!To meeee!
+---
+```
+:)
+```
 
-Code:
+### 6. Problem
 
+#### Falscher Satz: Rally to me!To meeee!
+
+```
 value.replace("!", "! ")
-Korrigierter Satz:
-Rally to me! To meeee!
+```
 
-7. Problem
+#### Korrigierter Satz: Rally to me! To meeee!
 
-Falscher Satz:
-Murderer) 
+--- 
 
-Code:
+### 7. Problem
 
+#### Falscher Satz: Murderer) 
+
+```
 value.replace(")", "")
-Korrigierter Satz:
-Murderer
+```
+#### Korrigierter Satz: Murderer
 
