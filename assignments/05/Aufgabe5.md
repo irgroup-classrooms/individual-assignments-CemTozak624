@@ -10,16 +10,14 @@ Die folgenden Sätze sind Beispiele dafür, wie "dirty data" bereinigt wurde. Es
 
 ---
 
-2. Problem
+### 2. Problem
 
-Falscher Satz:
-Gandalf?
+- Falscher Satz: Gandalf?
 
-Code:
-
+```bash
 value.replace("  ", "")
-Korrigierter Satz:
-Gandalf?
+```
+- Korrigierter Satz: Gandalf?
 
 3. Problem
 
