@@ -18,19 +18,19 @@ Die folgenden Sätze sind Beispiele dafür, wie "dirty data" bereinigt wurde. Es
 value.replace("  ", "")
 ```
 #### Korrigierter Satz: Gandalf?
+---
 
-3. Problem
+### 3. Problem
 
-Falscher Satz:
-And I've gone and had too much. , It must be getting late.
+#### Falscher Satz: And I've gone and had too much. , It must be getting late.
 
-Code:
 
+```
 value.replace(". ,", ".")
-Korrigierter Satz:
-And I've gone and had too much. It must be getting late.
+```
+#### Korrigierter Satz: And I've gone and had too much. It must be getting late.
 
-4. Problem
+### 4. Problem
 
 Falscher Satz:
 What?Gandalf?See what?
